@@ -147,7 +147,7 @@ Tags:
     #tutorial
 ```
 
-You can see that I used a special syntax to add a link. You can read
+You can see that we used a special syntax to add a link. You can read
 more about it in the [main
 readme](https://github.com/wojdatto/pyzet#references), but note that at
 this point it's only a convention.
@@ -228,7 +228,7 @@ likely not match your local time. This is done on purpose -- we use
 UTC+0 to make sure that each ID is unique (at least, as long as you
 don't try to create multiple zettels at the same second :p)
 
-You can see that my ID of the first zettel was `20220126232605`. I can
+You can see that my ID of the first zettel was `20220126232605`. We can
 now paste it to the `show` command:
 
     $ pyzet show 20220126232605
@@ -236,9 +236,9 @@ now paste it to the `show` command:
     # This is my first zettel created with pyzet
     <snip>
 
-I mentioned that you can edit a zettel with `pyzet edit` command. As you
-might guess, it also works with the last zettel by default, and you need
-to provide an ID to edit an older zettel.
+We mentioned that you can edit a zettel with `pyzet edit` command. As
+you might guess, it also works with the last zettel by default, and you
+need to provide an ID to edit an older zettel.
 
 ## Rage quit option
 
@@ -265,7 +265,7 @@ time. There are also some additional options, you can see them with
 
 There is also `pyzet rm` command that allows you to remove a zettel.
 It's a bit different: you have to provide the ID each time, even for the
-newest zettel, e.g. to remove my second zettel I should run the
+newest zettel, e.g. to remove my second zettel we should run the
 following:
 
     $ pyzet rm 20220126232716
@@ -276,7 +276,7 @@ following:
     delete mode 100644 zettels/20220126232716/README.md
     /home/<your-username>/zet/zettels/20220126232716 was removed
 
-As you can see, I had to confirm the deletion with `y` (capitalization
+As you can see, we had to confirm the deletion with `y` (capitalization
 matters). Pressing `Enter` or any other key will abort the process.
 
 Because pyzet uses Git, the removed zettel is still available in the Git
@@ -498,7 +498,7 @@ This concludes the tutorial. It should give you a basic idea how to use
 pyzet, and create your own ZK repository with it.
 
 If you're new to the Zettelkasten, it might be helpful to read more
-about it. I suggest to go through *Inspiration and further reading*
+about it. We suggest to go through *Inspiration and further reading*
 section in the [main
 readme](https://github.com/wojdatto/pyzet#inspiration-and-further-reading).
 
