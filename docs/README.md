@@ -1,6 +1,6 @@
 # Pyzet tutorial
 
-## Disclaimer for Windows user
+## Disclaimer for a Windows user
 
 This instruction is written with a Linux user in mind. If you're on
 Windows, and you don't want to use
@@ -208,7 +208,7 @@ Again, you can show it with `pyzet show`:
 
 You might ask, "well, how can I show the first zettel now?". The
 behavior of `pyzet show` is simple: by default it shows the zettel with
-the highest ID (i.e. the latest one). To see older zettels, you have to
+the highest ID (i.e. the last one). To see older zettels, you have to
 provide an ID.
 
 But how can you obtain the ID of the first zettel? It's a pretty long
@@ -283,7 +283,7 @@ Because pyzet uses Git, the removed zettel is still available in the Git
 history. In order to completely remove it, you need to purge it
 completely from the Git history which means that you need to rewrite it
 (i.e. remove any commit that involved adding/editing such zettel, and
-rebase commits that happened later.)
+rebase commits that happened later).
 
 ## More interaction with Git repo
 

@@ -443,7 +443,7 @@ popular in Windows world.
 There are different ways to guarantee that file ending is correct, and
 one of them is using pre-commit with `end-of-file-fixer` hook that
 [comes by default](https://github.com/pre-commit/pre-commit-hooks) with
-this tool. It's very easy to setup pre-commit with ZK Git repository, so
+that tool. It's very easy to setup pre-commit with ZK Git repository, so
 we recommend it.
 
 ## Inspiration and further reading
